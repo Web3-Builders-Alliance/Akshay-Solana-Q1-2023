@@ -6,6 +6,7 @@ mod tuple;
 mod array;
 mod vectors;
 mod conditional;
+mod loops;
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -17,7 +18,7 @@ fn main() {
     //tuple::run();
     //array::run();
     //vectors::run();
-    conditional::run();
-
+    //conditional::run();
+    loops::run();
 }
  
