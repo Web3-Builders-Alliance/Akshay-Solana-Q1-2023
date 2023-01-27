@@ -2,6 +2,7 @@ mod print;
 mod variable;
 mod dataTypes;
 mod string;
+mod tuple;
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -9,7 +10,7 @@ fn main() {
     // print::run();
     // variable::run();
     //dataTypes::run();
-    string::run();
-
+    //string::run();
+    tuple::run();
 }
  
