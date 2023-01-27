@@ -1,5 +1,5 @@
 pub fn run(){
-    let mut arr:[i32;5]=[1,2,3,4,5];
+    let mut arr:[i32;5]=[1,2,3,4,5]; //need exact 5 items, neither less nor more hence fixed sizes
 
     arr[2]=0;  //modifying array items
     println!("Array : {:?} , array len : {},  array[1] : {}, 

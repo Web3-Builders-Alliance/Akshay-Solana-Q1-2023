@@ -4,6 +4,7 @@ mod dataTypes;
 mod string;
 mod tuple;
 mod array;
+mod vectors;
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -13,6 +14,7 @@ fn main() {
     //dataTypes::run();
     //string::run();
     //tuple::run();
-    array::run();
+    //array::run();
+    vectors::run();
 }
  
