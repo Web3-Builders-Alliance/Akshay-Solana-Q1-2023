@@ -10,6 +10,7 @@ mod loops;
 mod function;
 mod enums;
 mod structs;
+mod ref_pointer;
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -24,7 +25,8 @@ fn main() {
     //conditional::run();
     //loops::run();
     //function::run();
-    enums::run();
-    structs::run();
+    // enums::run();
+    // structs::run();
+    ref_pointer::run();
 }
  
