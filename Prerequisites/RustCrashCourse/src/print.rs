@@ -3,7 +3,7 @@ pub fn run(){
 
     println!("Hello {}","Akshay");
 
-    //positional arguments
+    //positional argument
     println!("Hello {2} from {0}, bye {1}","Ram","Shyam","Anu");
     println!("Bye {name}",name="Ramu");
 

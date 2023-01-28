@@ -9,7 +9,7 @@ pub fn run(){
     v.pop();  //removong last lements of vector
     println!("Vector items : {:?}, len : {}",v,v.len());
 
-    //loop through vector
+    //loop through vectors
     for num in v.iter(){
         println!("{}",num);
     }
