@@ -7,6 +7,7 @@ mod array;
 mod vectors;
 mod conditional;
 mod loops;
+mod function;
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -19,6 +20,7 @@ fn main() {
     //array::run();
     //vectors::run();
     //conditional::run();
-    loops::run();
+    //loops::run();
+    function::run();
 }
  
