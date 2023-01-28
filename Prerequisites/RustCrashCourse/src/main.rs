@@ -11,6 +11,7 @@ mod function;
 mod enums;
 mod structs;
 mod ref_pointer;
+mod cli;
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -27,6 +28,7 @@ fn main() {
     //function::run();
     // enums::run();
     // structs::run();
-    ref_pointer::run();
+    //ref_pointer::run();
+    cli::run();
 }
  
