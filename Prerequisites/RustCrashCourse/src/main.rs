@@ -8,6 +8,8 @@ mod vectors;
 mod conditional;
 mod loops;
 mod function;
+mod enums;
+
 
 fn main() {
     println!("Hello, world! from main.rs");
@@ -21,6 +23,7 @@ fn main() {
     //vectors::run();
     //conditional::run();
     //loops::run();
-    function::run();
+    //function::run();
+    enums::run();
 }
  
