@@ -1,5 +1,5 @@
 pub fn run(){
-    //infinite loop
+    //infinite loops
     let mut count=0;
     loop{
         count+=1;
