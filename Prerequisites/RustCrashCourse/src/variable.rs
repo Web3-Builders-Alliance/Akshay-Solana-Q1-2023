@@ -5,7 +5,7 @@
 pub fn run(){
     let name="Akshay";
 
-    //mutable variable
+    //mutable variables
     let mut age=20;
     age=25;
     println!("Hello {} and age is: {}",name,age);

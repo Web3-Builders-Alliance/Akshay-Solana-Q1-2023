@@ -11,7 +11,7 @@ Tuples,Array
 // compiler can infer types based on the value
 pub fn run(){
 
-    let a=1; //default type is i32
+    let a=1; //default type iss i32
     let b=1.2;  //default type is f64
 
     let c: i16 =20;  //explicit type
