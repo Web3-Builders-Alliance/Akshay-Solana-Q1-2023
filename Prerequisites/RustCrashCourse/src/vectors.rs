@@ -17,5 +17,5 @@ pub fn run(){
     for x in v.iter_mut(){
         *x+=1;
     }
-    println!("Vector items : {:?}",v);
+    println!("Vector itemss : {:?}",v);
 }
